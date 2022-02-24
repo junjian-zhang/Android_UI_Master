@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         my_button.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                Log.e(TAG, "onLongClick: ");
+                Log.e(TAG, "onLongClick: 1");
                 return false;
             }
         });
